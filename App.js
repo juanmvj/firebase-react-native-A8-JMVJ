@@ -34,7 +34,7 @@ export default function App() {
         setEmail(docData.data().email);   
 
       } else {
-         console.log('No such a data!');
+         console.log('No se encuentra');
       }
 
     }).catch((error) => {
@@ -47,7 +47,7 @@ export default function App() {
       username: username,
       email: email,
     }).then(() => { 
-      console.log('data submitted');  
+      console.log('datos arriba');  
 
     }).catch((error) => {
           console.log(error);
